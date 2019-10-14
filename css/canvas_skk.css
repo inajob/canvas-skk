@@ -1,0 +1,17 @@
+/* CSS */
+body{
+    background-color:#ddd;
+}
+canvas{
+    border:solid 1px;
+}
+.footer{
+    text-align:right;
+    margin:1em;
+}
+.rfloat{
+    float:right;
+}
+.rpad{
+    
+}

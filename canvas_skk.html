@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="viewport" content="width=device-width, user-scalable=yes">
+<title>CanvasSKK</title>
+<script src="js/jquery-1.6.1.min.js"></script>
+<script src="js/canvas_skk.js?3"></script>
+<link rel="stylesheet" href="css/canvas_skk.css" type="text/css" />
+</head>
+<body>
+<h1>CanvasSKK</h1>
+
+<div class="aright">
+  <div class="rfloat rpad">
+    <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="simple" title="このエントリーをはてなブックマークに追加"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+  </div>
+  <div id="tweet" class="rfloat rpad">
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="" data-count="none">Tweet</a>
+    <script>!function(d,s,id){var s,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </div>
+  <div class="rfloat rpad">
+    <div class="fb-like" data-send="false" data-width="120" data-show-faces="true" data-colorscheme="dark" data-font="arial"></div>
+  </div>
+  <br class="clbr" />
+</div>
+
+<div>
+  Canvas上に<a href="http://openlab.jp/skk/index-j.html">SKK</a>を実装しました。 Chrome,Firefoxの最新版で動作を確認しています。
+  <a href="http://openlab.ring.gr.jp/skk/wiki/wiki.cgi?page=SKK%BC%AD%BD%F1#p3">SKK辞書</a>を利用しています。
+</div>
+<div id="debug"></div>
+<div id="contents">
+<canvas id="canv" width="800" height="200"></canvas>
+</div>
+<div>
+  <ul>
+    <li>Ctrl + j 日本語へ</li>
+    <li>l 英字へ</li>
+    <li>q かなカナ切り替え</li>
+  </ul>
+  <ul>
+    <li>Ctrl + a 先頭へ</li>
+    <li>Ctrl + e 末尾へ</li>
+  </ul>
+</div>
+<div id="ind"></div>
+<hr>
+<div class="footer">
+  by <a href="http://twitter.com/ina_ani">@ina_ani</a>
+</div>
+
+<div id="fb-root"></div>
+</body>
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+</html>
